@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C39FDD201AAB9BC500E34636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FDD1F1AAB9BC500E34636 /* AppDelegate.swift */; };
+		C39FDD221AAB9BC500E34636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FDD211AAB9BC500E34636 /* ViewController.swift */; };
+		C39FDD251AAB9BC500E34636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39FDD231AAB9BC500E34636 /* Main.storyboard */; };
+		C39FDD271AAB9BC500E34636 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39FDD261AAB9BC500E34636 /* Images.xcassets */; };
+		C39FDD2A1AAB9BC500E34636 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39FDD281AAB9BC500E34636 /* LaunchScreen.xib */; };
+		C39FDD361AAB9BC500E34636 /* PostkortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FDD351AAB9BC500E34636 /* PostkortTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C39FDD301AAB9BC500E34636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39FDD121AAB9BC500E34636 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39FDD191AAB9BC500E34636;
+			remoteInfo = Postkort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C39FDD1A1AAB9BC500E34636 /* Postkort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postkort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39FDD1E1AAB9BC500E34636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39FDD1F1AAB9BC500E34636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C39FDD211AAB9BC500E34636 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C39FDD241AAB9BC500E34636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C39FDD261AAB9BC500E34636 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C39FDD291AAB9BC500E34636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C39FDD2F1AAB9BC500E34636 /* PostkortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostkortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39FDD341AAB9BC500E34636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39FDD351AAB9BC500E34636 /* PostkortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostkortTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39FDD171AAB9BC500E34636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39FDD2C1AAB9BC500E34636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39FDD111AAB9BC500E34636 = {
+			isa = PBXGroup;
+			children = (
+				C39FDD1C1AAB9BC500E34636 /* Postkort */,
+				C39FDD321AAB9BC500E34636 /* PostkortTests */,
+				C39FDD1B1AAB9BC500E34636 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39FDD1B1AAB9BC500E34636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39FDD1A1AAB9BC500E34636 /* Postkort.app */,
+				C39FDD2F1AAB9BC500E34636 /* PostkortTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39FDD1C1AAB9BC500E34636 /* Postkort */ = {
+			isa = PBXGroup;
+			children = (
+				C39FDD1F1AAB9BC500E34636 /* AppDelegate.swift */,
+				C39FDD211AAB9BC500E34636 /* ViewController.swift */,
+				C39FDD231AAB9BC500E34636 /* Main.storyboard */,
+				C39FDD261AAB9BC500E34636 /* Images.xcassets */,
+				C39FDD281AAB9BC500E34636 /* LaunchScreen.xib */,
+				C39FDD1D1AAB9BC500E34636 /* Supporting Files */,
+			);
+			path = Postkort;
+			sourceTree = "<group>";
+		};
+		C39FDD1D1AAB9BC500E34636 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39FDD1E1AAB9BC500E34636 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C39FDD321AAB9BC500E34636 /* PostkortTests */ = {
+			isa = PBXGroup;
+			children = (
+				C39FDD351AAB9BC500E34636 /* PostkortTests.swift */,
+				C39FDD331AAB9BC500E34636 /* Supporting Files */,
+			);
+			path = PostkortTests;
+			sourceTree = "<group>";
+		};
+		C39FDD331AAB9BC500E34636 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39FDD341AAB9BC500E34636 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39FDD191AAB9BC500E34636 /* Postkort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39FDD391AAB9BC500E34636 /* Build configuration list for PBXNativeTarget "Postkort" */;
+			buildPhases = (
+				C39FDD161AAB9BC500E34636 /* Sources */,
+				C39FDD171AAB9BC500E34636 /* Frameworks */,
+				C39FDD181AAB9BC500E34636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Postkort;
+			productName = Postkort;
+			productReference = C39FDD1A1AAB9BC500E34636 /* Postkort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C39FDD2E1AAB9BC500E34636 /* PostkortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39FDD3C1AAB9BC500E34636 /* Build configuration list for PBXNativeTarget "PostkortTests" */;
+			buildPhases = (
+				C39FDD2B1AAB9BC500E34636 /* Sources */,
+				C39FDD2C1AAB9BC500E34636 /* Frameworks */,
+				C39FDD2D1AAB9BC500E34636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39FDD311AAB9BC500E34636 /* PBXTargetDependency */,
+			);
+			name = PostkortTests;
+			productName = PostkortTests;
+			productReference = C39FDD2F1AAB9BC500E34636 /* PostkortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39FDD121AAB9BC500E34636 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Laugargerdisskoli;
+				TargetAttributes = {
+					C39FDD191AAB9BC500E34636 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C39FDD2E1AAB9BC500E34636 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C39FDD191AAB9BC500E34636;
+					};
+				};
+			};
+			buildConfigurationList = C39FDD151AAB9BC500E34636 /* Build configuration list for PBXProject "Postkort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39FDD111AAB9BC500E34636;
+			productRefGroup = C39FDD1B1AAB9BC500E34636 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39FDD191AAB9BC500E34636 /* Postkort */,
+				C39FDD2E1AAB9BC500E34636 /* PostkortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39FDD181AAB9BC500E34636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39FDD251AAB9BC500E34636 /* Main.storyboard in Resources */,
+				C39FDD2A1AAB9BC500E34636 /* LaunchScreen.xib in Resources */,
+				C39FDD271AAB9BC500E34636 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39FDD2D1AAB9BC500E34636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39FDD161AAB9BC500E34636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39FDD221AAB9BC500E34636 /* ViewController.swift in Sources */,
+				C39FDD201AAB9BC500E34636 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39FDD2B1AAB9BC500E34636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39FDD361AAB9BC500E34636 /* PostkortTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C39FDD311AAB9BC500E34636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39FDD191AAB9BC500E34636 /* Postkort */;
+			targetProxy = C39FDD301AAB9BC500E34636 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39FDD231AAB9BC500E34636 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39FDD241AAB9BC500E34636 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C39FDD281AAB9BC500E34636 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39FDD291AAB9BC500E34636 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39FDD371AAB9BC500E34636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C39FDD381AAB9BC500E34636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C39FDD3A1AAB9BC500E34636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Postkort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C39FDD3B1AAB9BC500E34636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Postkort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C39FDD3D1AAB9BC500E34636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostkortTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Postkort.app/Postkort";
+			};
+			name = Debug;
+		};
+		C39FDD3E1AAB9BC500E34636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostkortTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Postkort.app/Postkort";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39FDD151AAB9BC500E34636 /* Build configuration list for PBXProject "Postkort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39FDD371AAB9BC500E34636 /* Debug */,
+				C39FDD381AAB9BC500E34636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39FDD391AAB9BC500E34636 /* Build configuration list for PBXNativeTarget "Postkort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39FDD3A1AAB9BC500E34636 /* Debug */,
+				C39FDD3B1AAB9BC500E34636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C39FDD3C1AAB9BC500E34636 /* Build configuration list for PBXNativeTarget "PostkortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39FDD3D1AAB9BC500E34636 /* Debug */,
+				C39FDD3E1AAB9BC500E34636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39FDD121AAB9BC500E34636 /* Project object */;
+}

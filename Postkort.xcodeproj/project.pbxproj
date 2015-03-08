@@ -13,6 +13,8 @@
 		C39FDD271AAB9BC500E34636 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39FDD261AAB9BC500E34636 /* Images.xcassets */; };
 		C39FDD2A1AAB9BC500E34636 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39FDD281AAB9BC500E34636 /* LaunchScreen.xib */; };
 		C39FDD361AAB9BC500E34636 /* PostkortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FDD351AAB9BC500E34636 /* PostkortTests.swift */; };
+		C39FDD401AAB9CBD00E34636 /* MeControlXXLUserTile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C39FDD3F1AAB9CBD00E34636 /* MeControlXXLUserTile.jpg */; };
+		C39FDD421AAB9D0E00E34636 /* Gandalf 1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C39FDD411AAB9D0E00E34636 /* Gandalf 1-2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,10 @@
 		C39FDD2F1AAB9BC500E34636 /* PostkortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostkortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39FDD341AAB9BC500E34636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C39FDD351AAB9BC500E34636 /* PostkortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostkortTests.swift; sourceTree = "<group>"; };
+		C39FDD3F1AAB9CBD00E34636 /* MeControlXXLUserTile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MeControlXXLUserTile.jpg; sourceTree = "<group>"; };
+		C39FDD411AAB9D0E00E34636 /* Gandalf 1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gandalf 1-2.jpg"; sourceTree = "<group>"; };
+		C39FDD431AABA85200E34636 /* is-IS */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "is-IS"; path = "is-IS.lproj/Main.strings"; sourceTree = "<group>"; };
+		C39FDD441AABA85300E34636 /* is-IS */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "is-IS"; path = "is-IS.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 		C39FDD1D1AAB9BC500E34636 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C39FDD411AAB9D0E00E34636 /* Gandalf 1-2.jpg */,
+				C39FDD3F1AAB9CBD00E34636 /* MeControlXXLUserTile.jpg */,
 				C39FDD1E1AAB9BC500E34636 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +203,8 @@
 				C39FDD251AAB9BC500E34636 /* Main.storyboard in Resources */,
 				C39FDD2A1AAB9BC500E34636 /* LaunchScreen.xib in Resources */,
 				C39FDD271AAB9BC500E34636 /* Images.xcassets in Resources */,
+				C39FDD421AAB9D0E00E34636 /* Gandalf 1-2.jpg in Resources */,
+				C39FDD401AAB9CBD00E34636 /* MeControlXXLUserTile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C39FDD241AAB9BC500E34636 /* Base */,
+				C39FDD431AABA85200E34636 /* is-IS */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -248,6 +259,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C39FDD291AAB9BC500E34636 /* Base */,
+				C39FDD441AABA85300E34636 /* is-IS */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

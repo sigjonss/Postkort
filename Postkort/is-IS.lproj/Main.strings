@@ -1,0 +1,18 @@
+
+/* Class = "IBUITextField"; placeholder = "Skrifa nafn"; ObjectID = "I0r-rT-8Ae"; */
+"I0r-rT-8Ae.placeholder" = "Skrifa nafn";
+
+/* Class = "IBUINavigationItem"; title = "Gandalf"; ObjectID = "Mev-ZY-hra"; */
+"Mev-ZY-hra.title" = "Gandalf";
+
+/* Class = "IBUITextField"; placeholder = "Skrifa skilaboð"; ObjectID = "b3D-P3-atO"; */
+"b3D-P3-atO.placeholder" = "Skrifa skilaboð";
+
+/* Class = "IBUIButton"; normalTitle = "Senda skilaboð"; ObjectID = "hMh-VE-P56"; */
+"hMh-VE-P56.normalTitle" = "Senda skilaboð";
+
+/* Class = "IBUIBarButtonItem"; title = "Skilaboð"; ObjectID = "lpY-pr-qah"; */
+"lpY-pr-qah.title" = "Skilaboð";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "uFQ-a3-xSS"; */
+"uFQ-a3-xSS.text" = "Label";
